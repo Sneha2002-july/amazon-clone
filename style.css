@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Outfit;
+}
+body{
+    background: #dadada;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #131921;
+    color:#fff;
+    
+}
+.nav-country{
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+    color:#c4c4c4;
+    margin-left: 15px;
+}
+.nav-country h1{
+    font-size: 14px;
+    color:#fff;
+}
+.nav-search{
+    flex:1;
+    display:flex;
+    background:#fff;
+    color: gray;
+    border-radius: 4px;
+    max-width: 1000px;
+    margin-left: 15px;
+    min-height: 8px;
+
+}
+.navsearch-gategory{ 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background: #e5e5e5;
+    border-radius: 4px 0 0 4px;
+}
+.nav-search-input{
+    border:none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+.nav-search-icon{
+    max-width: 41px;
+    padding: 8px;
+    background: #ffd64f;
+    border-radius: 0 4px 4px 0;
+}
+.nav-language{
+    display: flex;
+    gap: 2px;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 15px;
+}
+.acc-details{
+    margin-left: 15px;
+}
+.acc-details p{
+    font-size:8px;
+}
+.acc-details h1{
+    font-size:14px;
+}
+.nav-returns{
+    left-margin:15px;
+}
+.nav-returns p{
+    font-size:8px;
+}
+.nav-returns h1{
+    font-size:14px;
+}
+.nav-cart{
+    margin-left:15px;
+    display:flex;
+    align-items: center;
+}
+.nav-bottom{ 
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #fff;
+    background: #232f3e;
+}
+.nav-bottom div{
+    display: flex;
+    align-items:center;
+    font-weight: 600;
+    gap:5px;
+}
+.header-slide ul{
+    display: flex;
+    overflow-y:none;
+
+}
+.header-image{
+    max-width: 100%;
+    mask-image:linear-gradient(to bottom,#000000 50%,transparent 100%);
+}
+.header-slide a{
+    position:absolute;
+    font-weight: 600;
+    cursor: pointer;
+    background: #ffffff4f;
+    color:0000007b;
+    text-decoration: none;
+    z-index: 1;
+    top:40%;
+    padding:5vh 1vw;
+}
+.control-right{
+    right:0;
+}
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 30px;
+    row-gap: 20px;
+}
+.box-col{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    background: #fff;
+    padding: 15px 20px;
+    max-width:24%;
+    min-width: 200px;
+    z-index: 1;
+}
+.box-col a{
+    font-size: 13px; 
+    font-weight: 500;
+    color: #009999;
+}
+.header-box{
+    margin-top: -20vw;
+}
+.product-slider{
+    background:#fff;
+    margin:0px 30px;
+    padding:20px;
+    margin-bottom: 15px;
+}
+.product-slider .products{
+    display: flex;
+    overflow-x:auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+.product-slider .products img{
+    max-width: 200px;
+    max-height: 200;
+}
+.product-slider .products::-webkit-scrollbar{
+    display: none;
+}
+.product-slider-with-price{
+    background:#fff;
+    margin: 0 30px;
+    padding:20px;
+    margin-bottom: 15px;
+}
+.product-slider-with-price .products{
+    display:flex;
+    overflow-x:auto;
+    gap:10px;
+    margin-top: 10px;
+}
+.product-slider-with-price .products::-webkit-scrollbar{
+    display:none;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background-color: #fbfbfb;
+}
+.product-card img{
+    width:110px;
+    margin:0 50px;
+
+}
+.product-offer p{
+    background: #be0b3b;
+    color:#fff;
+    display:inline-block;
+    padding: 2px 5px;
+    border-radius:2px;
+    margin: 8px 0;
+    font-size:13px;
+}
+.product-offer span{
+    color:#be0b3b;
+    font-weight: 500;
+    font-size: 12px;
+}
+.productprice{
+    color:gray;
+    font-size: 13px;
+}
+.product-card h4{
+    color:#525252;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #131951;
+    padding: 20px 60px;
+}
